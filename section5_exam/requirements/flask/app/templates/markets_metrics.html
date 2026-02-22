@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Markets Metrics{% endblock %}
+{% block content %}
+<h5 class="mb-1">Markets Metrics</h5>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+      <ul class="list-group list-group-flush">
+        {% for metrics in bars %}
+        <li class="list-group-item">
+          <h3>{{metrics}}</h3>
+          <div class="chart" id="bargraph{{loop.index}}">
+            <script>
+              var graphs{{loop.index}} = {{bars[metrics] | safe}};
+              Plotly.plot('bargraph{{loop.index}}', graphs{{loop.index}}, {});
+            </script>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}

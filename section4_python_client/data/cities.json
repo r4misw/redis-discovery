@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Paris",
+    "country": "France",
+    "monuments": [
+      "Eiffel Tower",
+      "Louvre Museum",
+      "Notre-Dame Cathedral"
+      ],
+      "population": 2206488,
+      "cityCode": "PAR",
+      "languagesSpoken": [
+        "French",
+        "English",
+        "Spanish"
+      ],
+      "areaSquareKm": 105.4,
+      "timezone": "Central European Time (CET)"
+  },
+  {
+    "name": "New York City",
+    "country": "United States",
+    "monuments": [
+      "Statue of Liberty",
+      "Empire State Building",
+      "Times Square"
+    ],
+    "population": 8398748,
+    "cityCode": "NYC",
+    "languagesSpoken": [
+      "English",
+      "Spanish",
+      "Chinese",
+      "Russian"
+    ],
+    "areaSquareKm": 468.9,
+    "timezone": "Eastern Time (ET)"
+  },
+  {
+    "name": "Tokyo",
+    "country": "Japan",
+    "monuments": [
+      "Tokyo Tower",
+      "Senso-ji Temple",
+      "Imperial Palace"
+    ],
+    "population": 13928168,
+    "cityCode": "TOK",
+    "languagesSpoken": [
+      "Japanese",
+      "English"
+    ],
+    "areaSquareKm": 2187.66,
+    "timezone": "Japan Standard Time (JST)"
+  },
+  {
+    "name": "London",
+    "country": "United Kingdom",
+    "monuments": [
+      "Big Ben",
+      "Tower Bridge",
+      "Buckingham Palace"
+    ],
+    "population": 8982000,
+    "cityCode": "LON",
+    "languagesSpoken": [
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "areaSquareKm": 1572,
+    "timezone": "Greenwich Mean Time (GMT)"
+  },
+  {
+    "name": "Sydney",
+    "country": "Australia",
+    "monuments": [
+      "Sydney Opera House",
+      "Sydney Harbour Bridge",
+      "Bondi Beach"
+    ],
+    "population": 5230330,
+    "cityCode": "SYD",
+    "languagesSpoken": [
+      "English",
+      "Chinese",
+      "Arabic"
+    ],
+    "areaSquareKm": 1236.8,
+    "timezone": "Australian Eastern Standard Time (AEST)"
+  },
+  {
+    "name": "Berlin",
+    "country": "Germany",
+    "monuments": [
+      "Brandenburg Gate",
+      "Berlin Wall",
+      "Reichstag Building"
+    ],
+    "population": 3644826,
+    "cityCode": "BER",
+    "languagesSpoken": [
+      "German",
+      "English",
+      "Turkish"
+    ],
+    "areaSquareKm": 891.68,
+    "timezone": "Central European Time (CET)"
+  },
+  {
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "monuments": [
+      "Christ the Redeemer",
+      "Sugarloaf Mountain",
+      "Copacabana Beach"
+    ],
+    "population": 6718903,
+    "cityCode": "RIO",
+    "languagesSpoken": [
+      "Portuguese",
+      "Spanish",
+      "English"
+    ],
+    "areaSquareKm": 1222.8,
+    "timezone": "Brasília Time (BRT)"
+  },
+  {
+    "name": "Cairo",
+    "country": "Egypt",
+    "monuments": [
+      "Pyramids of Giza",
+      "Sphinx",
+      "Khan el-Khalili Market"
+    ],
+    "population": 9121514,
+    "cityCode": "CAI",
+    "languagesSpoken": [
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "areaSquareKm": 606.6,
+    "timezone": "Eastern European Time (EET)"
+  },
+  {
+    "name": "Bangkok",
+    "country": "Thailand",
+    "monuments": [
+      "Wat Pho",
+      "Grand Palace",
+      "Chatuchak Market"
+    ],
+    "population": 8249617,
+    "cityCode": "BKK",
+    "languagesSpoken": [
+      "Thai",
+      "English",
+      "Chinese"
+    ],
+    "areaSquareKm": 1568.7,
+    "timezone": "Indochina Time (ICT)"
+  },
+  {
+    "name": "Toronto",
+    "country": "Canada",
+    "monuments": [
+      "CN Tower",
+      "Royal Ontario Museum",
+      "Distillery District"
+    ],
+    "population": 2731571,
+    "cityCode": "TOR",
+    "languagesSpoken": [
+      "English",
+      "French",
+      "Chinese"
+    ],
+    "areaSquareKm": 630.2,
+    "timezone": "Eastern Time (ET)"
+  },
+  {
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "monuments": [
+      "Burj Khalifa",
+      "Palm Jumeirah",
+      "Dubai Mall"
+    ],
+    "population": 3121622,
+    "cityCode": "DXB",
+    "languagesSpoken": [
+      "Arabic",
+      "English",
+      "Hindi"
+    ],
+    "areaSquareKm": 4114,
+    "timezone": "Gulf Standard Time (GST)"
+  },
+  {
+    "name": "Moscow",
+    "country": "Russia",
+    "monuments": [
+      "Red Square",
+      "Kremlin",
+      "Saint Basil's Cathedral"
+    ],
+    "population": 12616824,
+    "cityCode": "MOW",
+    "languagesSpoken": [
+      "Russian",
+      "English",
+      "German"
+    ],
+    "areaSquareKm": 2511,
+    "timezone": "Moscow Standard Time (MSK)"
+  },
+  {
+    "name": "Seoul",
+    "country": "South Korea",
+    "monuments": [
+      "Gyeongbokgung Palace",
+      "Namsan Seoul Tower",
+      "Myeongdong Shopping Street"
+    ],
+    "population": 9720846,
+    "cityCode": "SEL",
+    "languagesSpoken": [
+      "Korean",
+      "English",
+      "Chinese"
+    ],
+    "areaSquareKm": 605.2,
+    "timezone": "Korea Standard Time (KST)"
+  },
+  {
+    "name": "Mexico City",
+    "country": "Mexico",
+    "monuments": [
+      "Zócalo",
+      "Chapultepec Castle",
+      "Frida Kahlo Museum"
+    ],
+    "population": 9209944,
+    "cityCode": "MEX",
+    "languagesSpoken": [
+      "Spanish",
+      "English"
+    ],
+    "areaSquareKm": 1485.5,
+    "timezone": "Central Standard Time (CST)"
+  },
+  {
+    "name": "Mumbai",
+    "country": "India",
+    "monuments": [
+      "Gateway of India",
+      "Chhatrapati Shivaji Terminus",
+      "Elephanta Caves"
+    ],
+    "population": 12442373,
+    "cityCode": "BOM",
+    "languagesSpoken": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "areaSquareKm": 603.4,
+    "timezone": "Indian Standard Time (IST)"
+  },
+  {
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "monuments": [
+      "Obelisco",
+      "La Boca Neighborhood",
+      "Teatro Colón"
+    ],
+    "population": 2890151,
+    "cityCode": "BUE",
+    "languagesSpoken": [
+      "Spanish",
+      "English"
+    ],
+    "areaSquareKm": 203.3,
+    "timezone": "Argentina Time (ART)"
+  },
+  {
+    "name": "Shanghai",
+    "country": "China",
+    "monuments": [
+      "The Bund",
+      "Shanghai Tower",
+      "Yuyuan Garden"
+    ],
+    "population": 24256800,
+    "cityCode": "SHA",
+    "languagesSpoken": [
+      "Mandarin",
+      "Shanghainese",
+      "English"
+    ],
+    "areaSquareKm": 6341,
+    "timezone": "China Standard Time (CST)"
+  },
+  {
+    "name": "Cape Town",
+    "country": "South Africa",
+    "monuments": [
+      "Table Mountain",
+      "Robben Island",
+      "Victoria & Alfred Waterfront"
+    ],
+    "population": 4336880,
+    "cityCode": "CPT",
+    "languagesSpoken": [
+      "Afrikaans",
+      "English",
+      "Xhosa"
+    ],
+    "areaSquareKm": 2461,
+    "timezone": "South Africa Standard Time (SAST)"
+  },
+  {
+    "name": "Rome",
+    "country": "Italy",
+    "monuments": [
+      "Colosseum",
+      "Roman Forum",
+      "Trevi Fountain"
+    ],
+    "population": 2870500,
+    "cityCode": "ROM",
+    "languagesSpoken": [
+      "Italian",
+      "English",
+      "Spanish"
+    ],
+    "areaSquareKm": 1285.31,
+    "timezone": "Central European Time (CET)"
+  }
+]

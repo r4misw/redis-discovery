@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}{{customer_id}}{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="/stylesheets/customer_orders.css" />
+<h5 class="mb-1">Orders</h5>
+<div class="button-container">
+  <form action="/customer/{{customer_id}}/orders/1" method="get">
+    <a href="javascript:void(0);" class="redirect-button">
+      Display products of an order
+      {% for order_id in order_ids %}
+        <input type="submit" name="order_id_input" value={{order_id}}>
+      {% endfor %}
+    </a>
+  </form>
+  <form action="/customer/{{customer_id}}/orders/2" method="get">
+    <a href="javascript:void(0);" class="redirect-button">
+      Orders passed after
+      <input type="text" name="date_input" class="user-input" placeholder="Date in format: %Y-%m-%d">
+      <input type="submit" value="Submit">
+    </a>
+  </form>
+  <form action="/customer/{{customer_id}}/orders/3" method="get">
+    <a href="javascript:void(0);" class="redirect-button">
+      Orders with more than n products
+      <input type="text" name="quantity_input" class="user-input" placeholder="Enter a number">
+      <input type="submit" value="Submit">
+    </a>
+  </form>
+</div>
+{% endblock %}

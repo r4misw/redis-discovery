@@ -1,0 +1,49 @@
+version: "3.3"
+
+services:
+  redis:
+    container_name: redis
+    image: redis:7.2.0
+    networks:
+      - eval_network
+    ports:
+      - '6379:6379'
+    volumes:
+      - ./requirements/redis/data:/data
+      - ./requirements/redis/conf:/etc/redis_conf
+      - ./requirements/redis/modules:/lib/redis_modules
+    command: [ "redis-server", "/etc/redis_conf/redis_7.2.conf" ]
+
+  mongo:
+    container_name: mongo
+    image: mongo:5.0
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+      - MONGO_INITDB_DATABASE=eval
+    networks:
+      - eval_network
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./requirements/mongo/data/db:/data/db
+      - ./requirements/mongo/data/json:/data/json
+      - ./requirements/mongo/init:/docker-entrypoint-initdb.d
+
+  flask:
+    depends_on:
+      - mongo
+      - redis
+    container_name: flask
+    build: ./requirements/flask
+    image: flask
+    networks:
+      - eval_network
+    ports:
+      - 5000:5000
+    volumes:
+      - ./requirements/flask/app:/app/
+
+networks:
+  eval_network:
+    name: eval_network

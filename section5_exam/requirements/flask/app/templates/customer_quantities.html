@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}{{customer_id}}{% endblock %}
+{% block content %}
+<h5>Orders query 1</h5>
+<div>
+  <ul>
+    {% for order_id in quantities %}
+    <li>
+      <h3>Order {{order_id}} has {{quantities[order_id]}} products</h3>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}MY FLASK{% endblock %}
+{% block content %}
+<h1>HELLO</h1>
+<ul class="list-group list-group-flush">
+	{% for db in mongo_dbs %}
+		<li class="list-group-item">
+      <h5>{{ db }}</h5>
+		</li>
+	{% endfor %}
+</ul>
+{% endblock %}

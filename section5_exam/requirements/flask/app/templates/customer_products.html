@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}{{customer_id}}{% endblock %}
+{% block content %}
+<h5>Orders query 1</h5>
+<div>
+  <ul>
+    {% for order_id in product_names %}
+    <li>
+      <h3>Order: {{order_id}}</h3>
+      <ul>
+        {% for product_name in product_names[order_id] %}
+        <li>
+          <p>{{product_name}}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

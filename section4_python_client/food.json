@@ -1,0 +1,102 @@
+{
+   "food": {
+			"fruits": [
+         {
+            "id": 1001,
+            "name": "Apple",
+            "price": 1.25,
+            "stock": 150,
+            "organic": true,
+            "colors": ["red", "green"]
+         },
+         {
+            "id": 1002,
+            "name": "Banana",
+            "price": 0.75,
+            "stock": 200,
+            "organic": false,
+            "colors": ["yellow"]
+         },
+         {
+            "id": 1003,
+            "name": "Orange",
+            "price": 1.50,
+            "stock": 100,
+            "organic": true,
+            "colors": ["orange"]
+         }
+      ],
+      "vegetables": [
+         {
+            "id": 2001,
+            "name": "Carrot",
+            "price": 0.95,
+            "stock": 75,
+            "organic": true,
+            "colors": ["orange"]
+         },
+         {
+            "id": 2002,
+            "name": "Broccoli",
+            "price": 1.75,
+            "stock": 50,
+            "organic": false,
+            "colors": ["green"]
+         },
+         {
+            "id": 2003,
+            "name": "Tomato",
+            "price": 1.20,
+            "stock": 80,
+            "organic": true,
+            "colors": ["red"]
+         }
+      ],
+      "candies": [
+         {
+            "id": 3001,
+            "name": "Chocolate Bar",
+            "price": 1.50,
+            "stock": 200,
+            "flavors": ["milk", "dark"]
+         },
+         {
+            "id": 3002,
+            "name": "Gummy Bears",
+            "price": 1.25,
+            "stock": 300,
+            "flavors": ["strawberry", "lemon", "orange", "grape"]
+         },
+         {
+            "id": 3003,
+            "name": "Licorice Twists",
+            "price": 1.75,
+            "stock": 150,
+            "flavors": ["black", "red", "strawberry"]
+         }
+      ],
+      "cookies": [
+         {
+            "id": 4001,
+            "name": "Chocolate Chip Cookies",
+            "price": 2.00,
+            "stock": 100,
+            "types": ["regular", "gluten-free"]
+         },
+         {
+            "id": 4002,
+            "name": "Oatmeal Raisin Cookies",
+            "price": 1.75,
+            "stock": 120,
+            "types": ["regular"]
+         },
+         {
+            "id": 4003,
+            "name": "Peanut Butter Cookies",
+            "price": 2.25,
+            "stock": 80,
+            "types": ["regular"]
+         }
+      ]
+   }
+}

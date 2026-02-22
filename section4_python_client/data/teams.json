@@ -1,0 +1,114 @@
+[
+  {
+    "Banana_Friendly": {
+      "Alice": 92,
+      "Bob": 184,
+      "Charlie": 63,
+      "David": 102
+    }
+  },
+  {
+    "Apple_Generous": {
+      "Ella": 37,
+      "Frank": 59,
+      "Grace": 173,
+      "Henry": 44
+    }
+  },
+  {
+    "Orange_Optimistic": {
+      "Isabella": 76,
+      "Jack": 115,
+      "Liam": 22,
+      "Mia": 198
+    }
+  },
+  {
+    "Pineapple_Energetic": {
+      "Noah": 64,
+      "Olivia": 84,
+      "Sophia": 149,
+      "William": 17
+    }
+  },
+  {
+    "Strawberry_Creative": {
+      "Emma": 31,
+      "Aiden": 110,
+      "Ava": 42,
+      "Benjamin": 95
+    }
+  },
+  {
+    "Cherry_Kind": {
+      "Ethan": 127,
+      "Evelyn": 150,
+      "Luna": 55,
+      "Lucas": 88
+    }
+  },
+  {
+    "Watermelon_Patient": {
+      "Mason": 71,
+      "Mia": 46,
+      "Oliver": 76,
+      "Olivia": 103
+    }
+  },
+  {
+    "Grapefruit_Joyful": {
+      "Sophie": 11,
+      "Sophia": 181,
+      "William": 13,
+      "Oliver": 33
+    }
+  },
+  {
+    "Peach_Optimistic": {
+      "Zoe": 28,
+      "Zoey": 94,
+      "James": 87,
+      "Liam": 157
+    }
+  },
+  {
+    "Blueberry_Honest": {
+      "Ella": 4,
+      "Eleanor": 29,
+      "Eli": 108,
+      "Elizabeth": 135
+    }
+  },
+  {
+    "Humble_Mango": {
+      "Liam": 89,
+      "Lily": 53,
+      "Lucas": 66,
+      "Nora": 112
+    }
+  },
+  {
+    "Caring_Kiwi": {
+      "Oliver": 79,
+      "Olivia": 123,
+      "Mia": 6,
+      "Michael": 19
+    }
+  },
+  {
+    "Gentle_Grape": {
+      "William": 50,
+      "Emily": 51,
+      "Sophia": 111,
+      "Mia": 83
+    }
+  },
+  {
+    "Pear_Brave": {
+      "Ava": 69,
+      "Alexander": 136,
+      "Olivia": 100,
+      "Oliver": 123
+    }
+  }
+]

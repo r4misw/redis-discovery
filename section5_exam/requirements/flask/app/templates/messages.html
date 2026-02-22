@@ -1,0 +1,18 @@
+{% with messages = get_flashed_messages()%}
+  {% if messages %}
+    {% for message in messages %}
+      <p>{{message}}</p>
+      {% if message.split()[-1] == "Redis" %}
+        <h3>Retry with MongoDB<h3/>
+            <form method="post" action={% block action %}{% endblock %}>
+          <input type="submit" value="Click here" name="action" />
+        </form>
+      {% elif message.split()[-1] == "MongoDB" %}
+        <h3>Retry with Redis<h3/>
+            <form method="post" action="/customer/{{customer_id}}">
+          <input type="submit" value="Click here" name="action" />
+        </form>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endwith %}
